@@ -290,7 +290,7 @@ Hey !
 dialog{
   id = "intro_2_3",
   text = [[
-Ca va ? 
+Ça va ? 
 ]]
 }
 
