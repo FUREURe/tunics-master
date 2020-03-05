@@ -4,8 +4,8 @@ dialog{
   skip = "all",
   text = [[
 C'est verrouillé !
-Tu as besoin d'une
-grande clé.
+Vous avez besoin 
+d'une grande clé.
 ]]
 }
 
@@ -24,7 +24,7 @@ dialog{
   icon = "2",
   skip = "all",
   text = [[
-Tu n'as plus de
+Vous n'avez plus de
 flèches.
 ]]
 }
@@ -68,7 +68,7 @@ dialog{
   skip = "all",
   text = [[
 Atteignez des lieux
-inaccessible avec le
+inaccessibles avec le
 grappin.
 ]]
 }
@@ -274,7 +274,7 @@ fabuleux pique-nique
 dialog{
   id = "intro_2_1",
   text = [[
-Je te tricotte une
+Je te tricote une
 nouvelle tunique.
 ]]
 }
@@ -341,7 +341,7 @@ C'est parti.
 dialog{
   id = "tier_complete",
   text = [[
-La tunique est fini. Continue ainsi !
+La tunique est prête. Continuez ainsi !
 ]]
 }
 
@@ -349,7 +349,7 @@ dialog{
   id = "try_again",
   question = "1",
   text = [[
-Réesayer ?
+Réessayer ?
   Oui
   Non
 ]]
