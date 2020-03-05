@@ -4,8 +4,8 @@ dialog{
   skip = "all",
   text = [[
 C'est verrouillé !
-Tu as besoin d'une
-grande clé.
+Vous avez besoin 
+d'une grande clé.
 ]]
 }
 
@@ -24,7 +24,7 @@ dialog{
   icon = "2",
   skip = "all",
   text = [[
-Tu n'as plus de
+Vous n'avez plus de
 flèches.
 ]]
 }
@@ -68,7 +68,7 @@ dialog{
   skip = "all",
   text = [[
 Atteignez des lieux
-inaccessible avec le
+inaccessibles avec le
 grappin.
 ]]
 }
@@ -136,7 +136,7 @@ dialog{
   id = "_treasure.heart_container.1",
   text = [[
 Vous avez obtenu un
-récéptacle de coeur !
+réceptacle de coeur !
 ]]
 }
 
@@ -184,11 +184,12 @@ dialog{
   id = "_treasure.sword.1",
   text = [[
 C'est dangereux d'y
-aller seul, prend
+aller seul, prends
 ceci.
-
-(It's dangerous to 
-go alone. Take this)
+Ou comme qui 
+dirait :
+It's dangerous to 
+go alone. Take this.
 ]]
 }
 
@@ -267,14 +268,14 @@ dialog{
   text = [[
 Et c'est le temps
 idéal pour un
-fabuleux pique-nique
+fabuleux pique-nique.
 ]]
 }
 
 dialog{
   id = "intro_2_1",
   text = [[
-Je te tricotte une
+Je te tricote une
 nouvelle tunique.
 ]]
 }
@@ -289,7 +290,7 @@ Hey !
 dialog{
   id = "intro_2_3",
   text = [[
-Ca va ? 
+Ça va ? 
 ]]
 }
 
@@ -298,7 +299,7 @@ dialog{
   text = [[
 Je pense que je vais
 juste continuer à
-tricotter en attendant
+tricoter en attendant
 son retour.
 ]]
 }
@@ -314,14 +315,14 @@ Besoin d'aide ?
 dialog{
   id = "intro_3_2",
   text = [[
-Un pique-nique royal 
+Un pique-nique royal, 
 dis-tu ?
 
 Le seul moyen de remonter
-est de passé par ces
+est de passer par ces
 escaliers
 
-Oh, attend...
+Oh, attends...
 ]]
 }
 
@@ -341,7 +342,7 @@ C'est parti.
 dialog{
   id = "tier_complete",
   text = [[
-La tunique est fini. Continue ainsi !
+La tunique est prête. Continuez ainsi !
 ]]
 }
 
@@ -349,7 +350,7 @@ dialog{
   id = "try_again",
   question = "1",
   text = [[
-Réesayer ?
+Réessayer ?
   Oui
   Non
 ]]
