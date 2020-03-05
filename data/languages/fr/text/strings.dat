@@ -1,0 +1,11 @@
+text{ key = "tier", value = "Palier " }
+text{ key = "completed", value = " fini" }
+text{ key = "title_screen.press_space", value = "Appuyer sur espace" }
+
+text{ key = "menu.Continued", value = "Continuer (Palier X)" }
+text{ key = "menu.NewGame", value = "Nouvelle partie" }
+text{ key = "menu.Settings", value = "Contrôles" }
+text{ key = "menu.Exit", value = "Quitter" }
+
+text{ key = "pause.saveandexit", value = "Sauvegarder et quitter" }
+text{ key = "pause.Continuedpause", value = "Continuer" }

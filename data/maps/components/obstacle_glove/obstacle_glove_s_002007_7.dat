@@ -1,0 +1,185 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_ganon_brown_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.1.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.1.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 152,
+  width = 16,
+  height = 32,
+  pattern = "barrier_big.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 152,
+  width = 16,
+  height = 32,
+  pattern = "barrier_big.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 184,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.1.border.2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 184,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.1.border.2",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 136,
+  y = 136,
+  width = 16,
+  height = 16,
+  name = "stone_1",
+  pattern = "placeholder_stone",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 168,
+  y = 136,
+  width = 16,
+  height = 16,
+  name = "stone_2",
+  pattern = "placeholder_stone",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 152,
+  y = 168,
+  width = 16,
+  height = 16,
+  name = "treasure_obstacle_chest",
+  pattern = "placeholder_treasure_obstacle",
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 72,
+  y = 136,
+  width = 16,
+  height = 16,
+  name = "treasure_open_chest",
+  pattern = "placeholder_treasure_open",
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 240,
+  y = 136,
+  width = 32,
+  height = 32,
+  name = "enemy_1",
+  pattern = "placeholder_enemy",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 152,
+  y = 152,
+  width = 16,
+  height = 16,
+  name = "stone_3",
+  pattern = "placeholder_stone",
+  enabled_at_start = true,
+}
+

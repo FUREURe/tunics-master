@@ -1,0 +1,76 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_brick_gray_1",
+  music = "same",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 240,
+  y = 144,
+  width = 32,
+  height = 48,
+  name = "treasure_obstacle_carpet",
+  pattern = "floor_small.2",
+  enabled_at_start = true,
+}
+
+door{
+  layer = 1,
+  x = 248,
+  y = 168,
+  name = "treasure_obstacle_block",
+  direction = 1,
+  sprite = "entities/door_weak_block",
+  opening_method = "explosion",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 208,
+  y = 144,
+  width = 32,
+  height = 48,
+  name = "treasure_open_carpet",
+  pattern = "floor_small.2",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 208,
+  y = 168,
+  width = 32,
+  height = 32,
+  name = "enemy_1",
+  pattern = "placeholder_enemy",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 216,
+  y = 152,
+  width = 16,
+  height = 16,
+  name = "treasure_open_chest",
+  pattern = "placeholder_treasure_open",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 248,
+  y = 152,
+  width = 16,
+  height = 16,
+  name = "treasure_obstacle_chest",
+  pattern = "placeholder_treasure_obstacle",
+  enabled_at_start = true,
+}
+

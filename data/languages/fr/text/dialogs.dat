@@ -1,0 +1,357 @@
+dialog{
+  id = "_big_key_required",
+  icon = "73",
+  skip = "all",
+  text = [[
+C'est verrouillé !
+Tu as besoin d'une
+grande clé.
+]]
+}
+
+dialog{
+  id = "_item_description.bombs_counter.1",
+  icon = "1",
+  skip = "all",
+  text = [[
+Explosez des choses
+avec les bombes.
+]]
+}
+
+dialog{
+  id = "_item_description.bow.1",
+  icon = "2",
+  skip = "all",
+  text = [[
+Tu n'as plus de
+flèches.
+]]
+}
+
+dialog{
+  id = "_item_description.bow.2",
+  icon = "3",
+  skip = "all",
+  text = [[
+N'oubliez pas de vous
+entrainer avec l'arc
+et les flèches.
+]]
+}
+
+dialog{
+  id = "_item_description.flippers.1",
+  icon = "26",
+  skip = "all",
+  text = [[
+Nagez en eaux 
+profondes avec les
+palmes.
+]]
+}
+
+dialog{
+  id = "_item_description.glove.1",
+  icon = "32",
+  skip = "all",
+  text = [[
+Soulevez des objets
+lourds avec les
+gants de puissances.
+]]
+}
+
+dialog{
+  id = "_item_description.hookshot.1",
+  icon = "6",
+  skip = "all",
+  text = [[
+Atteignez des lieux
+inaccessible avec le
+grappin.
+]]
+}
+
+dialog{
+  id = "_item_description.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Allumez les torches
+avec la lanterne.
+]]
+}
+
+dialog{
+  id = "_treasure.bigkey.1",
+  text = [[
+Vous avez obtenu
+une grande clé !
+]]
+}
+
+dialog{
+  id = "_treasure.bombs_counter.1",
+  text = [[
+Vous avez obtenu
+des bombes !
+]]
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  text = [[
+Vous avez obtenu
+l'arc !
+]]
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  text = [[
+Vous avez obtenu la
+boussole !
+]]
+}
+
+dialog{
+  id = "_treasure.flippers.1",
+  text = [[
+Vous avez obtenu
+les palmes !
+]]
+}
+
+dialog{
+  id = "_treasure.glove.1",
+  text = [[
+Vous avez obtenu
+les gants de
+puissance !
+]]
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  text = [[
+Vous avez obtenu un
+récéptacle de coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.hookshot.1",
+  text = [[
+Vous avez obtenu le
+grappin !
+]]
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  text = [[
+Vous avez obtenu la 
+lanterne !
+]]
+}
+
+dialog{
+  id = "_treasure.map.1",
+  text = [[
+Vous avez obtenu la
+carte de ce palier !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  text = [[
+Vous avez obtenu le
+bouclier !
+]]
+}
+
+dialog{
+  id = "_treasure.smallkey.1",
+  text = [[
+Vous avez obtenu une
+petite clé !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  text = [[
+C'est dangereux d'y
+aller seul, prend
+ceci.
+
+(It's dangerous to 
+go alone. Take this)
+]]
+}
+
+dialog{
+  id = "game_complete_1_1",
+  text = [[
+Tu es de retour !
+]]
+}
+
+dialog{
+  id = "game_complete_1_2",
+  text = [[
+Regarde toutes les
+tuniques que j'ai 
+faites pour toi !
+]]
+}
+
+dialog{
+  id = "game_complete_1_3",
+  question = "1",
+  text = [[
+Es-tu sûr ?
+  Oui
+  Donne m'en plus !
+]]
+}
+
+dialog{
+  id = "game_complete_1_4",
+  text = [[
+Oh !
+]]
+}
+
+dialog{
+  id = "game_complete_2_1",
+  text = [[
+Merci d'avoir joué !
+]]
+}
+
+dialog{
+  id = "game_complete_3_1",
+  text = [[
+Encore toi ?
+]]
+}
+
+dialog{
+  id = "game_complete_3_2",
+  text = [[
+Il vaut mieux y 
+aller.
+]]
+}
+
+dialog{
+  id = "game_over",
+  text = [[
+Perdu...
+Tu as X tuniques.
+]]
+}
+
+dialog{
+  id = "intro_1_1",
+  text = [[
+Hyrule est en paix.
+]]
+}
+
+dialog{
+  id = "intro_1_2",
+  text = [[
+Et c'est le temps
+idéal pour un
+fabuleux pique-nique
+]]
+}
+
+dialog{
+  id = "intro_2_1",
+  text = [[
+Je te tricotte une
+nouvelle tunique.
+]]
+}
+
+dialog{
+  id = "intro_2_2",
+  text = [[
+Hey !
+]]
+}
+
+dialog{
+  id = "intro_2_3",
+  text = [[
+Ca va ? 
+]]
+}
+
+dialog{
+  id = "intro_2_4",
+  text = [[
+Je pense que je vais
+juste continuer à
+tricotter en attendant
+son retour.
+]]
+}
+
+dialog{
+  id = "intro_3_1",
+  text = [[
+Génial, un visiteur !
+Besoin d'aide ?
+]]
+}
+
+dialog{
+  id = "intro_3_2",
+  text = [[
+Un pique-nique royal 
+dis-tu ?
+
+Le seul moyen de remonter
+est de passé par ces
+escaliers
+
+Oh, attend...
+]]
+}
+
+dialog{
+  id = "intro_3_3",
+  text = [[
+]]
+}
+
+dialog{
+  id = "intro_3_npc",
+  text = [[
+C'est parti.
+]]
+}
+
+dialog{
+  id = "tier_complete",
+  text = [[
+La tunique est fini. Continue ainsi !
+]]
+}
+
+dialog{
+  id = "try_again",
+  question = "1",
+  text = [[
+Réesayer ?
+  Oui
+  Non
+]]
+}
+

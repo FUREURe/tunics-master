@@ -1,0 +1,98 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_cave_brown_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 40,
+  width = 64,
+  height = 160,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 32,
+  width = 48,
+  height = 176,
+  pattern = "floor_small.2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "tongue",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "tongue",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 32,
+  width = 48,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 200,
+  width = 48,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+dynamic_tile{
+  name = "enemy_3",
+  layer = 1,
+  x = 72,
+  y = 80,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_2",
+  layer = 1,
+  x = 72,
+  y = 128,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "chest",
+  layer = 1,
+  x = 80,
+  y = 112,
+  pattern = "placeholder_treasure_open",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+

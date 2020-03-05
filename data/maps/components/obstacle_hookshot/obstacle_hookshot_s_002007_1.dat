@@ -1,0 +1,141 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_brick_gray_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 136,
+  width = 152,
+  height = 32,
+  pattern = "hole",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 136,
+  width = 32,
+  height = 72,
+  pattern = "hole",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 192,
+  width = 32,
+  height = 16,
+  pattern = "wall_hole.2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 208,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 208,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 64,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 168,
+  width = 8,
+  height = 40,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 136,
+  width = 16,
+  height = 32,
+  pattern = "wall_hole.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 136,
+  width = 176,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 160,
+  width = 152,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 264,
+  y = 168,
+  width = 16,
+  height = 16,
+  name = "treasure_open_chest",
+  pattern = "placeholder_treasure_block",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 120,
+  y = 168,
+  width = 16,
+  height = 16,
+  name = "treasure_obstacle_chest",
+  pattern = "placeholder_treasure_obstacle",
+  enabled_at_start = true,
+}
+

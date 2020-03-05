@@ -1,0 +1,347 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_brick_gray_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 40,
+  width = 80,
+  height = 96,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 72,
+  width = 64,
+  height = 56,
+  pattern = "floor_small.2",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 40,
+  width = 64,
+  height = 32,
+  pattern = "floor.20",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 16,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 16,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "barrier.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "barrier.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 16,
+  width = 16,
+  height = 24,
+  pattern = "door_boss.1.pillar.2",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 16,
+  width = 16,
+  height = 24,
+  pattern = "door_boss.1.pillar.1",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.5.1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.5.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.5.1",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.5.1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "drapes.1.1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "drapes.1.1",
+}
+
+dynamic_tile{
+  name = "door_open",
+  layer = 1,
+  x = 152,
+  y = 16,
+  pattern = "door.1",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+wall{
+  layer = 1,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+sensor{
+  name = "sensor",
+  layer = 1,
+  x = 160,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
+stream{
+  layer = 1,
+  x = 160,
+  y = 13,
+  direction = 2,
+  speed = 128,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+dynamic_tile{
+  name = "pot_1",
+  layer = 1,
+  x = 56,
+  y = 88,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_2",
+  layer = 1,
+  x = 88,
+  y = 88,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_3",
+  layer = 1,
+  x = 216,
+  y = 88,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_4",
+  layer = 1,
+  x = 248,
+  y = 88,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+tile{
+  layer = 2,
+  x = 136,
+  y = 8,
+  width = 48,
+  height = 8,
+  pattern = "door_cache.1",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 8,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.1",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 8,
+  width = 16,
+  height = 8,
+  pattern = "door_boss.1.pillar.1.top",
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 8,
+  width = 16,
+  height = 8,
+  pattern = "door_boss.1.pillar.2.top",
+}
+
+tile{
+  layer = 2,
+  x = 56,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top",
+}
+
+tile{
+  layer = 2,
+  x = 88,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top",
+}
+
+tile{
+  layer = 2,
+  x = 216,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top",
+}
+
+tile{
+  layer = 2,
+  x = 248,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top",
+}
+

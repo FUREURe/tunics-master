@@ -1,0 +1,346 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_brick_gray_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "stage_big.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "stage_big.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "stage_big.end.1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "stage_big.end.2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "stage_big.4",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "stage_big.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 56,
+  width = 48,
+  height = 16,
+  pattern = "stage_big.1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "stage_big.3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "stage_big.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "stage_big.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "stage_big.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "stage_big.steps",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "stage_big_fill.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "stage_big_fill.edge.4",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 72,
+  width = 32,
+  height = 8,
+  pattern = "stage_big_fill.edge.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "stage_big_fill.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "stage_big_fill.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "stage_big_fill.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "stage_big_fill.edge.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 96,
+  width = 32,
+  height = 8,
+  pattern = "stage_big_fill.edge.3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "stage_big_fill",
+}
+
+switch{
+  layer = 1,
+  x = 0,
+  y = 0,
+  name = "switch",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 88,
+  y = 56,
+  width = 16,
+  height = 16,
+  name = "pot_7",
+  pattern = "floor_pot",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 88,
+  y = 72,
+  width = 16,
+  height = 16,
+  name = "pot_2",
+  pattern = "floor_pot",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 88,
+  y = 88,
+  width = 16,
+  height = 16,
+  name = "pot_3",
+  pattern = "floor_pot",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 216,
+  y = 56,
+  width = 16,
+  height = 16,
+  name = "pot_4",
+  pattern = "floor_pot",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 216,
+  y = 72,
+  width = 16,
+  height = 16,
+  name = "pot_5",
+  pattern = "floor_pot",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 216,
+  y = 88,
+  width = 16,
+  height = 16,
+  name = "pot_6",
+  pattern = "floor_pot",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 48,
+  y = 88,
+  width = 32,
+  height = 32,
+  name = "enemy_4",
+  pattern = "placeholder_enemy",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 240,
+  y = 88,
+  width = 32,
+  height = 32,
+  name = "enemy_5",
+  pattern = "placeholder_enemy",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 152,
+  y = 80,
+  width = 16,
+  height = 16,
+  name = "chest",
+  pattern = "placeholder_treasure_open",
+  enabled_at_start = true,
+}
+
+tile{
+  layer = 2,
+  x = 56,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 2,
+  x = 248,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+

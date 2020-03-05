@@ -1,0 +1,11 @@
+text{ key = "tier", value = "Tier " }
+text{ key = "completed", value = " completed" }
+text{ key = "title_screen.press_space", value = "Press space to start" }
+
+text{ key = "menu.Continued", value = "Resume (Tier X)" }
+text{ key = "menu.NewGame", value = "New Game" }
+text{ key = "menu.Settings", value = "Control" }
+text{ key = "menu.Exit", value = "Exit" }
+
+text{ key = "pause.saveandexit", value = "Save & exit" }
+text{ key = "pause.Continuedpause", value = "Resume" }

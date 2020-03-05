@@ -1,0 +1,105 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_brick_gray_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 40,
+  width = 64,
+  height = 160,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 64,
+  width = 32,
+  height = 32,
+  pattern = "statue.1",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 144,
+  width = 32,
+  height = 32,
+  pattern = "statue.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 32,
+  width = 48,
+  height = 176,
+  pattern = "floor_small.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 200,
+  width = 48,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 32,
+  width = 48,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 56,
+  width = 32,
+  height = 32,
+  pattern = "statue.1",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 152,
+  width = 32,
+  height = 32,
+  pattern = "statue.1",
+}
+
+dynamic_tile{
+  name = "enemy_1",
+  layer = 1,
+  x = 232,
+  y = 104,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_2",
+  layer = 1,
+  x = 200,
+  y = 104,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+

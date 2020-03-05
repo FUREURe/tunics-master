@@ -1,0 +1,150 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_smoothbrick_green_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+dynamic_tile{
+  name = "pot_8",
+  layer = 1,
+  x = 232,
+  y = 56,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_2",
+  layer = 1,
+  x = 248,
+  y = 152,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_3",
+  layer = 1,
+  x = 232,
+  y = 152,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_4",
+  layer = 1,
+  x = 232,
+  y = 72,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_5",
+  layer = 1,
+  x = 248,
+  y = 72,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "pot_6",
+  layer = 1,
+  x = 232,
+  y = 168,
+  pattern = "floor_pot",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+switch{
+  name = "switch",
+  layer = 1,
+  x = 0,
+  y = 0,
+  subtype = "walkable",
+  sprite = "entities/switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+dynamic_tile{
+  name = "enemy_1",
+  layer = 1,
+  x = 200,
+  y = 56,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "treasure_obstacle_chest",
+  layer = 1,
+  x = 240,
+  y = 112,
+  pattern = "placeholder_treasure_puzzle",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "treasure_open_chest",
+  layer = 1,
+  x = 208,
+  y = 112,
+  pattern = "placeholder_treasure_open",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_2",
+  layer = 1,
+  x = 200,
+  y = 152,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+

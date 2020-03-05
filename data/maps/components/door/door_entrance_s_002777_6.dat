@@ -1,0 +1,338 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_ganon_brown_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 168,
+  width = 80,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "door_main.2.floor.2",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "door_main.2.floor.3",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 208,
+  width = 16,
+  height = 32,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "barrier.1.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "barrier.1.2",
+}
+
+dynamic_tile{
+  name = "entrance_carpet",
+  layer = 1,
+  x = 144,
+  y = 184,
+  pattern = "door_main.2.floor.1",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "tile_7",
+  layer = 1,
+  x = 144,
+  y = 208,
+  pattern = "wall.2",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
+}
+
+stream{
+  layer = 1,
+  x = 160,
+  y = 237,
+  direction = 2,
+  speed = 128,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+dynamic_tile{
+  name = "tile_2",
+  layer = 1,
+  x = 120,
+  y = 200,
+  pattern = "entrance_pillar.1.1.bottom",
+  width = 24,
+  height = 24,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "sensor",
+  layer = 1,
+  x = 160,
+  y = 205,
+  width = 16,
+  height = 16,
+}
+
+stream{
+  layer = 1,
+  x = 160,
+  y = 221,
+  direction = 2,
+  speed = 128,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+dynamic_tile{
+  name = "tile_3",
+  layer = 1,
+  x = 144,
+  y = 208,
+  pattern = "door.2.support.1",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "tile_4",
+  layer = 1,
+  x = 168,
+  y = 208,
+  pattern = "door.2.support.2",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "tile_5",
+  layer = 1,
+  x = 176,
+  y = 200,
+  pattern = "entrance_pillar.1.2.bottom",
+  width = 24,
+  height = 24,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "tile_6",
+  layer = 1,
+  x = 152,
+  y = 208,
+  pattern = "door_main.2",
+  width = 16,
+  height = 32,
+  enabled_at_start = true,
+}
+
+door{
+  name = "door_entrance_3",
+  layer = 1,
+  x = 152,
+  y = 208,
+  direction = 3,
+  sprite = "entities/door_normal",
+}
+
+block{
+  layer = 1,
+  x = 80,
+  y = 69,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 80,
+  y = 109,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 80,
+  y = 149,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 128,
+  y = 69,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 128,
+  y = 109,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 128,
+  y = 149,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 192,
+  y = 69,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 240,
+  y = 69,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 192,
+  y = 109,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 240,
+  y = 109,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 240,
+  y = 149,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 192,
+  y = 149,
+  sprite = "entities/statue",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+tile{
+  layer = 2,
+  x = 136,
+  y = 224,
+  width = 48,
+  height = 8,
+  pattern = "door_cache.2",
+}
+
+tile{
+  layer = 2,
+  x = 120,
+  y = 224,
+  width = 24,
+  height = 8,
+  pattern = "entrance_pillar.1.1.top",
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 224,
+  width = 24,
+  height = 8,
+  pattern = "entrance_pillar.1.2.top",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 224,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.2",
+}
+

@@ -1,0 +1,184 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_brick_gray_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 168,
+  width = 24,
+  height = 64,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 192,
+  width = 40,
+  height = 40,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 208,
+  width = 16,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 144,
+  width = 24,
+  height = 16,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.3",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 64,
+  y = 144,
+  width = 32,
+  height = 32,
+  name = "enemy_",
+  pattern = "placeholder_enemy",
+  enabled_at_start = true,
+}
+

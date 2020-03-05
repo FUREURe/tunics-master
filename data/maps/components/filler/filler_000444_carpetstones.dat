@@ -1,0 +1,135 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_brick_blue_1",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 80,
+  height = 144,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 56,
+  width = 64,
+  height = 128,
+  pattern = "floor_small.2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+dynamic_tile{
+  name = "stone_1",
+  layer = 1,
+  x = 80,
+  y = 64,
+  pattern = "placeholder_stone",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "stone_2",
+  layer = 1,
+  x = 64,
+  y = 72,
+  pattern = "placeholder_stone",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "stone_3",
+  layer = 1,
+  x = 96,
+  y = 72,
+  pattern = "placeholder_stone",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "stone_4",
+  layer = 1,
+  x = 64,
+  y = 152,
+  pattern = "placeholder_stone",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "stone_5",
+  layer = 1,
+  x = 96,
+  y = 152,
+  pattern = "placeholder_stone",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "stone_6",
+  layer = 1,
+  x = 80,
+  y = 160,
+  pattern = "placeholder_stone",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_2",
+  layer = 1,
+  x = 96,
+  y = 40,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_3",
+  layer = 1,
+  x = 96,
+  y = 168,
+  pattern = "placeholder_enemy",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
