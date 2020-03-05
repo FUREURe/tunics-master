@@ -184,7 +184,7 @@ dialog{
   id = "_treasure.sword.1",
   text = [[
 C'est dangereux d'y
-aller seul, prend
+aller seul, prends
 ceci.
 
 (It's dangerous to 
@@ -321,7 +321,7 @@ Le seul moyen de remonter
 est de passé par ces
 escaliers
 
-Oh, attend...
+Oh, attends...
 ]]
 }
 
