@@ -136,7 +136,7 @@ dialog{
   id = "_treasure.heart_container.1",
   text = [[
 Vous avez obtenu un
-récéptacle de coeur !
+réceptacle de coeur !
 ]]
 }
 
@@ -186,9 +186,10 @@ dialog{
 C'est dangereux d'y
 aller seul, prends
 ceci.
-
-(It's dangerous to 
-go alone. Take this)
+Ou comme qui 
+dirait :
+It's dangerous to 
+go alone. Take this.
 ]]
 }
 
@@ -267,7 +268,7 @@ dialog{
   text = [[
 Et c'est le temps
 idéal pour un
-fabuleux pique-nique
+fabuleux pique-nique.
 ]]
 }
 
@@ -314,11 +315,11 @@ Besoin d'aide ?
 dialog{
   id = "intro_3_2",
   text = [[
-Un pique-nique royal 
+Un pique-nique royal, 
 dis-tu ?
 
 Le seul moyen de remonter
-est de passé par ces
+est de passer par ces
 escaliers
 
 Oh, attends...
