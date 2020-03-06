@@ -252,7 +252,7 @@ dialog{
   id = "game_over",
   text = [[
 Perdu...
-Tu as X tuniques.
+Vous avez X tuniques.
 ]]
 }
 
